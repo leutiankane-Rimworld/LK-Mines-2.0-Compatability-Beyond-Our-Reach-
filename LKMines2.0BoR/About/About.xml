@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>LK Mines 2.0 Compatability[Beyond Our Reach]</name>
+    <author>LeutianKane</author>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <packageId>LeutianKane.Mines2patchBoR</packageId>
+    <description>Patches that will add resources from Beyond Our Reach to mines 2.0 bills if installed..
+    
+    
+    [H1][B]Credits[/B][/H1]
+    Mines 2.0 for the mod i've patched and the Preview image i've edited.
+    Ludeon for making Rimworld.
+    </description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>   
+        </li>
+        <li>
+            <packageId>Cain.Mineshaft</packageId>
+            <displayName>Mines 2.0</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2503894706</steamWorkshopUrl>
+            </li>
+           <li>
+            <packageId>bambaryla.bor</packageId>
+            <displayName>Beyond Our Reach</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/3253594129</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+    <li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+    <li>Ludeon.RimWorld.Odyssey</li>
+        <li>brrainz.harmony</li>
+        <li>Cain.Mineshaft</li>
+        <li>bambaryla.bor</li>
+    </loadAfter>
+</ModMetaData>
